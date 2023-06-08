@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.charge.btechcomputerscience.Fragment.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_career"
+        android:name="com.charge.btechcomputerscience.Fragment.CareerFragment"
+        android:label="Careers"
+        tools:layout="@layout/fragment_career" />
+
+    <fragment
+        android:id="@+id/nav_notes"
+        android:name="com.charge.btechcomputerscience.Fragment.NotesFragment"
+        android:label="Notes"
+        tools:layout="@layout/fragment_notes" />
+    <fragment
+        android:id="@+id/nav_downloads"
+        android:name="com.charge.btechcomputerscience.Fragment.DownloadsFragment"
+        android:label="Downloads"
+        tools:layout="@layout/fragment_downloads" />
+    <fragment
+        android:id="@+id/nav_impSubject"
+        android:name="com.charge.btechcomputerscience.Fragment.ImpSubjectsFragment"
+        android:label="Important Subject"
+        tools:layout="@layout/fragment_imp_subjects" />
+    <fragment
+        android:id="@+id/nav_internship"
+        android:name="com.charge.btechcomputerscience.Fragment.InternshipFragment"
+        android:label="Internship"
+        tools:layout="@layout/fragment_internship" />
+    <fragment
+        android:id="@+id/nav_job"
+        android:name="com.charge.btechcomputerscience.Fragment.JobFragment"
+        android:label="Jobs"
+        tools:layout="@layout/fragment_job" />
+
+</navigation>

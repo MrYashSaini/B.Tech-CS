@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:elevation="3dp"
+    tools:context=".Fragment.DownloadsFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spDownloadsSem"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/four_rounded_bg"
+            android:backgroundTint="@color/white" />
+
+        <Spinner
+            android:id="@+id/spDownloadsSubject"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/four_rounded_bg"
+            android:backgroundTint="@color/white"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:id="@+id/spDownloadsUnit"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/four_rounded_bg"
+            android:backgroundTint="@color/white"
+            />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvDownloadsShow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

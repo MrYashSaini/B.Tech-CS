@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">B.Tech Computer Science</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="career">Career</string>
+    <string name="notes">Notes</string>
+    <string name="important_subject">Important Subject</string>
+    <string name="internships">Internships</string>
+    <string name="jobs">Jobs</string>
+    <string name="share">Share</string>
+    <string name="btech_into">B Tech in Computer Science is a four year long undergraduate course within the engineering domain. B Tech in Computer Science deals with the study of computers and advanced software which are essential in today’s digital arena. Students pursuing computer science in graduation also study, analyze and make designs to solve problems, create programs, and innovate solutions for firms and organizations. B Tech Computer Science course comprises theory and practical work which every candidate needs to go through if opting for this course. It is the best program in IT domains.</string>
+    <string name="loading">Loading..</string>
+    <string name="downloads">Downloads</string>
+    <string name="rate_us">rate us</string>
+    <string name="internship_detaile">An internship is a temporary work experience where students or recent graduates engage in hands-on learning within a specific field or industry. It provides practical exposure, allowing individuals to apply theoretical knowledge, develop skills, and gain industry experience. Internships can be paid or unpaid and typically last for a fixed period. They offer opportunities to network with professionals, explore career paths, enhance employability, and learn new skills. Internships serve as a bridge between academia and the professional world, providing valuable practical insights and helping individuals make informed decisions about their future careers.</string>
+    <string name="job_intro">Computer science jobs are at the forefront of the rapidly evolving digital landscape and play a crucial role in shaping the modern world. With advancements in technology and the increasing reliance on computing systems, computer science professionals are in high demand across various industries. A computer science job encompasses a wide range of roles, each with its own set of responsibilities and requirements. Let\'s explore some of the common job roles in computer science:</string>
+</resources>
